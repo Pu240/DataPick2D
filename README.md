@@ -3,7 +3,7 @@ extract data from a colormap，从云图中提取数据
 本程序采用Wolfram Language语言编写，以.wl程序包的形式发布，运行在Mathematica12上（更低版本的或许也能用）。  
 ##  使用方法
 1. 在Mathematica的笔记本中输入`SystemOpen@$UserBaseDirectory`，运行打开用户目录,把DataPick2D.wl文件放入该目录下的Applications文件，没有的话可以新建一个同名文件；
-2. 在笔记本中输入`<< "DataPick2D`"`，载入程序包；
+2. 在笔记本中输入```<< "DataPick2D`"```，载入程序包；
 3. 如Figure 1所示，输入```DataPick2D`DataPick2D[picture,data,imagesize]```运行程序包，其中picture是需要提取数据的图片，data是用来存储结果的变量（随便什么名字都行，不一定叫data），imagesize是图片的宽度，该参数可以用来放大或缩小图片；
 ![Figure 1](https://github.com/Pu240/DataPick2D/blob/main/tutorial_pictures/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220316112929.png)  
                                              <center> Figure 1</center>
